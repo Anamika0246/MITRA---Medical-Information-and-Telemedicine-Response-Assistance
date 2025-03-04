@@ -6,7 +6,7 @@
 Clone the repository
 
 ```bash
-Project repo: https://github.com/
+Project repo: https://github.com/Anamika0246/MITRA---Medical-Information-and-Telemedicine-Response-Assistance
 ```
 
 ### STEP 01- Create a conda environment after opening the repository
@@ -21,19 +21,23 @@ conda activate medibot
 ```bash
 pip install -r requirements.txt
 ```
-Create a .env file in the root directory and add your Pinecone & openai credentials as follows:
-PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+### Create a .env file in the root directory and add your Pinecone & openai credentials as follows:
+PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"<br>
 OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-# run the following command to store embeddings to pinecone
+# Run the following command to store embeddings to pinecone
+```bash
 python store_index.py
+```
 # Finally run the following command
+```bash
 python app.py
+```
 Now,
 
-open up localhost:
-Techstack Used:
+# Open the localhost
+# Techstack Used:
 Python
 LangChain
 Flask
-GPT
+GROQ_API
 Pinecone

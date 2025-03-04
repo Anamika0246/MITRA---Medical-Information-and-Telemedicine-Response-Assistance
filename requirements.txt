@@ -1,11 +1,13 @@
-sentence-transformers==2.2.2
+sentence-transformers==2.2.0
+transformers==4.30.2
 langchain
 flask
 pypdf
 python-dotenv
-pinecone[grpc]
+pinecone-client>=5.0.0,<6.0.0
 langchain-pinecone
 langchain_community
 langchain_openai
 langchain_experimental
+huggingface_hub==0.16.4
 -e .
